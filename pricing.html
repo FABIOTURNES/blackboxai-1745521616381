@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Planos e Preços - Sortear.io</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="bg-gray-50 dark:bg-gray-900">
+    <!-- Header -->
+    <div id="header-placeholder"></div>
+
+    <main class="pt-20">
+        <section class="container mx-auto px-4 py-16">
+            <div class="text-center max-w-3xl mx-auto mb-16">
+                <h1 class="text-4xl font-bold text-gray-900 dark:text-white mb-4">
+                    Escolha o plano ideal para você
+                </h1>
+                <p class="text-lg text-gray-600 dark:text-gray-400">
+                    Planos flexíveis para atender às suas necessidades
+                </p>
+            </div>
+
+            <div class="grid md:grid-cols-3 gap-8 max-w-7xl mx-auto">
+                <!-- Free Plan -->
+                <div class="bg-white dark:bg-gray-800 rounded-lg shadow-lg overflow-hidden">
+                    <div class="p-8">
+                        <h3 class="text-2xl font-bold text-gray-900 dark:text-white mb-4">Grátis</h3>
+                        <p class="text-gray-600 dark:text-gray-400 mb-6">Perfeito para começar</p>
+                        <div class="mb-6">
+                            <span class="text-4xl font-bold text-gray-900 dark:text-white">R$0</span>
+                            <span class="text-gray-600 dark:text-gray-400">/mês</span>
+                        </div>
+                        <ul class="space-y-4 mb-8">
+                            <li class="flex items-center text-gray-600 dark:text-gray-400">
+                                <i class="fas fa-check text-green-500 mr-2"></i>
+                                Até 100 comentários por sorteio
+                            </li>
+                            <li class="flex items-center text-gray-600 dark:text-gray-400">
+                                <i class="fas fa-check text-green-500 mr-2"></i>
+                                Sorteios ilimitados
+                            </li>
+                            <li class="flex items-center text-gray-600 dark:text-gray-400">
+                                <i class="fas fa-check text-green-500 mr-2"></i>
+                                Suporte básico
+                            </li>
+                        </ul>
+                        <button class="w-full py-3 px-4 border border-blue-600 text-blue-600 rounded-lg hover:bg-blue-50 transition-colors">
+                            Começar agora
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Pro Plan -->
+                <div class="bg-white dark:bg-gray-800 rounded-lg shadow-lg overflow-hidden transform scale-105 border-2 border-blue-600">
+                    <div class="bg-blue-600 py-2 text-center">
+                        <span class="text-white text-sm font-medium">MAIS POPULAR</span>
+                    </div>
+                    <div class="p-8">
+                        <h3 class="text-2xl font-bold text-gray-900 dark:text-white mb-4">Pro</h3>
+                        <p class="text-gray-600 dark:text-gray-400 mb-6">Para sorteios profissionais</p>
+                        <div class="mb-6">
+                            <span class="text-4xl font-bold text-gray-900 dark:text-white">R$29</span>
+                            <span class="text-gray-600 dark:text-gray-400">/mês</span>
+                        </div>
+                        <ul class="space-y-4 mb-8">
+                            <li class="flex items-center text-gray-600 dark:text-gray-400">
+                                <i class="fas fa-check text-green-500 mr-2"></i>
+                                Até 1000 comentários por sorteio
+                            </li>
+                            <li class="flex items-center text-gray-600 dark:text-gray-400">
+                                <i class="fas fa-check text-green-500 mr-2"></i>
+                                Sorteios ilimitados
+                            </li>
+                            <li class="flex items-center text-gray-600 dark:text-gray-400">
+                                <i class="fas fa-check text-green-500 mr-2"></i>
+                                Suporte prioritário
+                            </li>
+                            <li class="flex items-center text-gray-600 dark:text-gray-400">
+                                <i class="fas fa-check text-green-500 mr-2"></i>
+                                Relatórios avançados
+                            </li>
+                            <li class="flex items-center text-gray-600 dark:text-gray-400">
+                                <i class="fas fa-check text-green-500 mr-2"></i>
+                                Roleta personalizada
+                            </li>
+                        </ul>
+                        <button class="w-full py-3 px-4 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors">
+                            Assinar agora
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Enterprise Plan -->
+                <div class="bg-white dark:bg-gray-800 rounded-lg shadow-lg overflow-hidden">
+                    <div class="p-8">
+                        <h3 class="text-2xl font-bold text-gray-900 dark:text-white mb-4">Enterprise</h3>
+                        <p class="text-gray-600 dark:text-gray-400 mb-6">Para grandes empresas</p>
+                        <div class="mb-6">
+                            <span class="text-4xl font-bold text-gray-900 dark:text-white">R$99</span>
+                            <span class="text-gray-600 dark:text-gray-400">/mês</span>
+                        </div>
+                        <ul class="space-y-4 mb-8">
+                            <li class="flex items-center text-gray-600 dark:text-gray-400">
+                                <i class="fas fa-check text-green-500 mr-2"></i>
+                                Comentários ilimitados
+                            </li>
+                            <li class="flex items-center text-gray-600 dark:text-gray-400">
+                                <i class="fas fa-check text-green-500 mr-2"></i>
+                                Sorteios ilimitados
+                            </li>
+                            <li class="flex items-center text-gray-600 dark:text-gray-400">
+                                <i class="fas fa-check text-green-500 mr-2"></i>
+                                Suporte VIP 24/7
+                            </li>
+                            <li class="flex items-center text-gray-600 dark:text-gray-400">
+                                <i class="fas fa-check text-green-500 mr-2"></i>
+                                API personalizada
+                            </li>
+                            <li class="flex items-center text-gray-600 dark:text-gray-400">
+                                <i class="fas fa-check text-green-500 mr-2"></i>
+                                Múltiplos usuários
+                            </li>
+                            <li class="flex items-center text-gray-600 dark:text-gray-400">
+                                <i class="fas fa-check text-green-500 mr-2"></i>
+                                Personalização completa
+                            </li>
+                        </ul>
+                        <button class="w-full py-3 px-4 border border-blue-600 text-blue-600 rounded-lg hover:bg-blue-50 transition-colors">
+                            Fale conosco
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- FAQ Section -->
+            <div class="max-w-3xl mx-auto mt-24">
+                <h2 class="text-3xl font-bold text-center text-gray-900 dark:text-white mb-12">
+                    Perguntas Frequentes
+                </h2>
+                <div class="space-y-6">
+                    <div class="bg-white dark:bg-gray-800 rounded-lg shadow-sm p-6">
+                        <h3 class="text-lg font-medium text-gray-900 dark:text-white mb-2">
+                            Como funciona o período de teste?
+                        </h3>
+                        <p class="text-gray-600 dark:text-gray-400">
+                            Você pode experimentar todas as funcionalidades do plano Pro gratuitamente por 7 dias. Não é necessário cartão de crédito.
+                        </p>
+                    </div>
+                    <div class="bg-white dark:bg-gray-800 rounded-lg shadow-sm p-6">
+                        <h3 class="text-lg font-medium text-gray-900 dark:text-white mb-2">
+                            Posso mudar de plano depois?
+                        </h3>
+                        <p class="text-gray-600 dark:text-gray-400">
+                            Sim, você pode fazer upgrade ou downgrade do seu plano a qualquer momento. A cobrança será ajustada proporcionalmente.
+                        </p>
+                    </div>
+                    <div class="bg-white dark:bg-gray-800 rounded-lg shadow-sm p-6">
+                        <h3 class="text-lg font-medium text-gray-900 dark:text-white mb-2">
+                            Como funciona o suporte?
+                        </h3>
+                        <p class="text-gray-600 dark:text-gray-400">
+                            Oferecemos suporte por email para todos os planos. Clientes Pro e Enterprise têm acesso a suporte prioritário via WhatsApp.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Include Footer -->
+    <div id="footer-placeholder"></div>
+
+    <script>
+        // Load Header and Footer
+        fetch('/components/header.html')
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById('header-placeholder').innerHTML = data;
+                // Initialize header functionality after loading
+                initDarkMode();
+                initMobileMenu();
+            });
+
+        fetch('/components/footer.html')
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById('footer-placeholder').innerHTML = data;
+            });
+
+        // Dark mode toggle
+        function initDarkMode() {
+            const darkModeToggle = document.getElementById('darkModeToggle');
+            const mobileDarkModeToggle = document.getElementById('mobileDarkModeToggle');
+            const html = document.documentElement;
+            
+            function toggleDarkMode() {
+                html.classList.toggle('dark');
+                const isDark = html.classList.contains('dark');
+                const icon = isDark ? '<i class="fas fa-sun"></i>' : '<i class="fas fa-moon"></i>';
+                if(darkModeToggle) darkModeToggle.innerHTML = icon;
+                if(mobileDarkModeToggle) mobileDarkModeToggle.innerHTML = icon;
+            }
+
+            if(darkModeToggle) darkModeToggle.addEventListener('click', toggleDarkMode);
+            if(mobileDarkModeToggle) mobileDarkModeToggle.addEventListener('click', toggleDarkMode);
+
+            // Check system preference
+            if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+                html.classList.add('dark');
+                const icon = '<i class="fas fa-sun"></i>';
+                if(darkModeToggle) darkModeToggle.innerHTML = icon;
+                if(mobileDarkModeToggle) mobileDarkModeToggle.innerHTML = icon;
+            }
+        }
+
+        // Mobile menu toggle
+        function initMobileMenu() {
+            const mobileMenuButton = document.querySelector('.mobile-menu-button');
+            const mobileMenu = document.querySelector('.mobile-menu');
+
+            if(mobileMenuButton && mobileMenu) {
+                mobileMenuButton.addEventListener('click', () => {
+                    mobileMenu.classList.toggle('active');
+                    const isOpen = mobileMenu.classList.contains('active');
+                    mobileMenuButton.innerHTML = isOpen ? 
+                        '<i class="fas fa-times text-gray-600 dark:text-gray-300"></i>' : 
+                        '<i class="fas fa-bars text-gray-600 dark:text-gray-300"></i>';
+                });
+            }
+        }
+    </script>
+</body>
+</html>
